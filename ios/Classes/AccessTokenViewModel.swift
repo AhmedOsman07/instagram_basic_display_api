@@ -7,7 +7,7 @@
 
 import Foundation
 import CoreData
-
+@available(iOS 13.0, *)
 class AccessTokenViewModel: ObservableObject {
     
     enum State {
