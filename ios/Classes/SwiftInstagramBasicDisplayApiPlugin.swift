@@ -1,6 +1,6 @@
 import Flutter
 import UIKit
-
+@available(iOS 13.0, *)
 public class SwiftInstagramBasicDisplayApiPlugin: NSObject, FlutterPlugin {
     private var instagramManager: InstagramManager!
     private var channel: FlutterMethodChannel
