@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 import Combine
-
+@available(iOS 13.0, *)
 class AccessTokenViewController: UIViewController, WKUIDelegate, WKNavigationDelegate{
     
     var webView: WKWebView!
