@@ -81,7 +81,7 @@ class MethodCallHandlerImpl(private val instagramBasicDisplayApi: InstagramBasic
             Log.wtf(TAG, "Setting a method call handler before the last was disposed.")
             stopListening()
         }
-        channel = MethodChannel(messenger, "instagram_basic_display_api").apply {
+        channel = MethodChannel(messenger!, "instagram_basic_display_api").apply {
             setMethodCallHandler(this@MethodCallHandlerImpl)
         }
     }
